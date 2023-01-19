@@ -1,19 +1,19 @@
 :root {
-  --color_pink: #ff599e;
-  --color_violet: #da6bf9;
-  --color_indigo: #9e84ed;
-  --color_blue: #52acf7;
-  --color_turquoise: #15ebc1;
-  --color_lemongrass: #dbfdcc;
-  --color_white: #ffffff;
-
-  /* --color_pink: #ff87b9; */
-  /* --color_violet: #e38dfa; */
-  /* --color_indigo: #b7a3f2; */
-  /* --color_blue: #65b5f8; */
+  /* --color_pink: #ff599e; */
+  /* --color_violet: #da6bf9; */
+  /* --color_indigo: #9e84ed; */
+  /* --color_blue: #52acf7; */
   /* --color_turquoise: #15ebc1; */
   /* --color_lemongrass: #dbfdcc; */
   /* --color_white: #ffffff; */
+
+  --color_pink: #ff8c93;
+  --color_violet: #ff7cf2;
+  --color_indigo: #b7a0ff;
+  --color_blue: #95c5e8;
+  --color_turquoise: #78ffc4;
+  --color_lemongrass: #dfffd3;
+  --color_white: #ffffff;
 
   --color_bg-0: #162532;
   --color_bg-1: #111e29;
@@ -66,16 +66,16 @@ body {
 .hero_color-bar {
   height: 1.5rem;
   background: rgb(255, 89, 158);
-  background: linear-gradient(
-    90deg,
-    rgba(255, 89, 158, 1) 0%,
-    rgba(218, 107, 249, 1) 16.7%,
-    rgba(158, 132, 237, 1) 33.4%,
-    rgba(82, 172, 247, 1) 50.1%,
-    rgba(21, 235, 193, 1) 66.8%,
-    rgba(219, 253, 204, 1) 83.5%,
-    rgba(255, 255, 255, 1) 100%
-  );
+  /* background: linear-gradient( */
+  /*   90deg, */
+  /*   rgba(255, 89, 158, 1) 0%, */
+  /*   rgba(218, 107, 249, 1) 16.7%, */
+  /*   rgba(158, 132, 237, 1) 33.4%, */
+  /*   rgba(82, 172, 247, 1) 50.1%, */
+  /*   rgba(21, 235, 193, 1) 66.8%, */
+  /*   rgba(219, 253, 204, 1) 83.5%, */
+  /*   rgba(255, 255, 255, 1) 100% */
+  /* ); */
   background: linear-gradient(
     90deg,
     var(--color_pink) 0%,
@@ -93,9 +93,9 @@ body {
     background-color: red;
     background-image: linear-gradient(
       90deg,
-      rgba(21, 235, 193, 1) 0%,
-      rgba(219, 253, 204, 1) 50%,
-      rgba(255, 255, 255, 1) 100%
+      var(--color_turquoise) 0%,
+      var(--color_lemongrass) 50%,
+      var(--color_white) 100%
     );
     background-size: 20%;
     background-repeat: repeat;

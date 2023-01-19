@@ -1,0 +1,98 @@
+:root {
+  /* --color_pink: #ff599e; */
+  /* --color_violet: #da6bf9; */
+  /* --color_indigo: #9e84ed; */
+  /* --color_blue: #52acf7; */
+  /* --color_turquoise: #15ebc1; */
+  /* --color_lemongrass: #dbfdcc; */
+  /* --color_white: #ffffff; */
+
+  /* --color_pink: #ff2e3c; */
+  --color_pink: #ff8c93;
+  /* --color_pink: #ff5a65; */
+  --color_violet: #ff7cf2;
+  --color_indigo: #b7a0ff;
+  --color_blue: #7ec9ff;
+  /* --color_blue: #95c5e8; */
+  --color_turquoise: #78ffc4;
+  --color_lemongrass: #d2ffc1;
+  /* --color_lemongrass: #dfffd3; */
+  --color_white: #ffffff;
+
+  --color_code-bg-0: #162532;
+  /* --color_code-bg-0: #23202a; */
+  /* --color_code-bg-0: #1a2420; */
+  /* --color_code-bg-0: #242424; */
+  --color_code-bg-1: #111e29;
+  /* --color_code-bg-1: #1c1a22; */
+  /* --color_code-bg-1: #141c19; */
+  /* --color_code-bg-1: #1e1e1e; */
+  /*
+356
+314
+271
+229
+187
+144
+102
+
+50.4
+  */
+}
+
+html {
+  font-size: 1.0625rem;
+}
+
+* {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background: var(--color_code-bg-1);
+  margin: 0;
+  padding: 2rem;
+}
+
+pre {
+  background: var(--color_code-bg-0);
+  border: 1px solid #ffffff33;
+  color: var(--color_lemongrass);
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+  overflow: scroll;
+  border-radius: 6px;
+}
+
+code {
+  font-family: "Roboto Mono", monospace;
+  line-height: 1.3;
+  color: var(--color_indigo);
+}
+
+.c1 {
+  color: var(--color_white);
+}
+
+.c2 {
+  color: var(--color_violet);
+}
+
+.c3 {
+  color: var(--color_pink);
+}
+
+.c4 {
+  color: var(--color_turquoise);
+}
+
+.c5 {
+  color: var(--color_lemongrass);
+}
+
+.c6 {
+  color: var(--color_blue);
+}
