@@ -1,8 +1,8 @@
 # Joi Theme
 
-As a result of liking many themes, but not _loving_ any of them — I've decided
-to make my own. I'd like to learn the fundamentals of writing a plugin, and I
-hope that I can make something that other people will enjoy too.
+As a result of liking many themes, but having shameless commitment issues — I've
+decided to make my own. I'd like to learn the fundamentals of writing a plugin,
+and I hope that I can make something that other people will enjoy too.
 
 ## Planning
 
@@ -27,10 +27,13 @@ groups, but I may be completely wrong. Let's find out!
 
 ### Research
 
+- [This presentation](https://speakerdeck.com/cocopon/creating-your-lovely-color-scheme)
+  by [cocopon](https://github.com/cocopon) (creator of the beautiful
+  [iceberg theme](https://github.com/cocopon/iceberg.vim)) is great
 - Colour scheme is a set of highlighting definitions for syntax groups and other
   UI components
-- Define highlighting groups — for example:
 
 ```vim
+" example definition
 :hi! Normal guibg=#161821 guifg=#c6c8d1
 ```
