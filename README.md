@@ -1,9 +1,8 @@
 # Joi Theme
 
 As a result of liking many themes, but not _loving_ any of them — I've decided
-to make my own. I'd like to learn the fundamentals of writing a Neovim plugin
-using [Lua](https://www.lua.org/), and I hope that I can make something that
-other people will enjoy too.
+to make my own. I'd like to learn the fundamentals of writing a plugin, and I
+hope that I can make something that other people will enjoy too.
 
 ## Planning
 
@@ -11,7 +10,7 @@ other people will enjoy too.
 
 - Meet
   [WCAG colour contrast guidelines for legibility](https://developer.mozilla.org/en-US/docs/Web/Accessibility/Understanding_WCAG/Perceivable/Color_contrast)
-- Drip with visual umami (100% of RDA)
+- Drip with visual umami (100% RDA)
 - Create a light theme that is more than just an afterthought
 - Provide a matching theme for [Tmux](https://github.com/tmux/tmux/wiki) &
   [Alacritty](https://github.com/alacritty/alacritty), to protect my terminal
@@ -25,3 +24,13 @@ other themes in the past by adding my own custom
 I have a vague feeling that creating a new theme will involve a similar process
 — choosing a bunch of colours, and then applying those colours to highlight
 groups, but I may be completely wrong. Let's find out!
+
+### Research
+
+- Colour scheme is a set of highlighting definitions for syntax groups and other
+  UI components
+- Define highlighting groups — for example:
+
+```vim
+:hi! Normal guibg=#161821 guifg=#c6c8d1
+```
