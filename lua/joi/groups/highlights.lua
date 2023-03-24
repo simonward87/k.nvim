@@ -62,7 +62,7 @@ function M.highlight(palette, opts)
 		Question = { fg = palette.white },
 		QuickFixLine = { bg = palette.accent },
 		Repeat = { fg = palette.indigo },
-		Search = { fg = palette.alt_bg, bg = palette.medium_gray },
+		Search = { fg = palette.alt_bg, bg = palette.gray },
 		SignColumn = { bg = palette.alt_bg },
 		Special = { fg = palette.white },
 		SpecialChar = { fg = palette.medium_gray },
