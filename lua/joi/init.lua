@@ -7,7 +7,7 @@ function M.setup(opts)
 	end
 end
 
-function M.load()
+function M.load(theme_style)
 	local settings = require("joi.settings")
 	local opts = settings.opts
 
@@ -16,13 +16,22 @@ function M.load()
 		vim.api.nvim_command("syntax reset")
 	end
 
-	vim.o.background = "dark"
 	vim.o.termguicolors = true
-	vim.g.colors_name = "joi"
+
+	local palette_filename = "joi.palette-dark"
+
+	if theme_style then
+		vim.o.background = theme_style
+		vim.g.colors_name = "joi-" .. theme_style
+		palette_filename = "joi.palette-" .. theme_style
+	else
+		vim.o.background = "dark"
+		vim.g.colors_name = "joi-dark"
+	end
 
 	local util = require("joi.util")
-	local palette = require("joi.palette")
 	local groups = require("joi.groups")
+	local palette = require(palette_filename)
 
 	for _, group in ipairs(groups) do
 		group = group.highlight(palette, opts)

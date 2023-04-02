@@ -1,7 +1,4 @@
 local colors = {
-	-- alternative lower contrast bg:
-	-- bg = "#162532",
-	-- accent = "#233a4d",
 	bg = "#111e29",
 	accent = "#1f3344",
 	gray = "#7a8e9f",
@@ -15,15 +12,14 @@ local colors = {
 	blue = "#71bff7",
 	indigo = "#bfaaff",
 	violet = "#ff8cf4",
-	-- light_pink = "#ffcdd0",
-	-- light_gold = "#fff2c6",
-	-- light_lemongrass = "#edffe6",
-	-- light_turquoise = "#adffdb",
-	-- light_blue = "#b8dffb",
-	-- light_indigo = "#dfd5ff",
-	-- light_violet = "#ffc6fa",
 	none = "NONE",
 }
+
+-- alternative low contrast bg:
+if false then
+	colors["bg"] = "#162532"
+	colors["accent"] = "#233a4d"
+end
 
 colors["alt_bg"] = colors.bg
 colors["error"] = colors.pink
