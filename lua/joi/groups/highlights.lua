@@ -93,7 +93,7 @@ function M.highlight(palette, opts)
 		Underlined = { underline = true },
 		Variable = vim.tbl_extend("force", { fg = palette.fg }, opts.styles.variables),
 		VertSplit = { fg = palette.alt_bg, bg = palette.accent },
-		Visual = { bg = palette.gray },
+		Visual = { fg = palette.bg, bg = palette.gray },
 		VisualNOS = { bg = palette.accent },
 		WarningMsg = { fg = palette.error, bg = palette.alt_bg },
 		Whitespace = { fg = palette.gray },
