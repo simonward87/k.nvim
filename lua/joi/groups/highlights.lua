@@ -6,7 +6,10 @@ function M.highlight(palette, opts)
 		Boolean = { fg = palette.turquoise },
 		Character = { fg = palette.green },
 		ColorColumn = { bg = palette.accent },
-		Comment = vim.tbl_extend("force", { fg = palette.gray }, opts.styles.comments),
+		Comment = vim.tbl_extend("force", {
+			fg = palette.gray,
+			-- italic = true,
+		}, opts.styles.comments),
 		Conceal = { fg = palette.accent },
 		Conditional = { fg = palette.indigo },
 		Constant = { fg = palette.fg },

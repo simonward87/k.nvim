@@ -5,13 +5,13 @@ local colors = {
 	medium_gray = "#545349",
 	light_gray = "#34332D",
 	fg = "#131311",
-	pink = "#af0a16",
-	gold = "#6c5300",
-	lemongrass = "#336121",
-	turquoise = "#006237",
-	blue = "#005696",
-	indigo = "#5e3ac3",
-	violet = "#8e2b82",
+	pink = "#C50E3A",       -- AA0930 | C50E3A | E01244
+	gold = "#8D5707",       -- 7A4900 | 8D5707 | 9F650D
+	lemongrass = "#3D7011", -- 305F06 | 3D7011 | 4A801B
+	turquoise = "#00742E",  -- 006327 | 00742E | 008535
+	blue = "#0E6C8E",       -- 005C7E | 0E6C8E | 1C7B9E
+	indigo = "#6D4EC3",     -- 4B3EC7 | 5C4FD2 | 6C5FDD
+	violet = "#A724AE",     -- 921699 | A724AE | BC31C3
 	none = "NONE",
 }
 
