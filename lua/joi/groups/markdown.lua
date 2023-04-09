@@ -2,7 +2,7 @@ local M = {}
 
 function M.highlight(palette, opts)
 	return {
-		markdownBlockquote = { fg = palette.accent },
+		markdownBlockquote = { fg = palette.bg_2 },
 		markdownBold = { fg = palette.gold, bold = true },
 		markdownCode = { fg = palette.turquoise },
 		markdownCodeBlock = { fg = palette.turquoise },
@@ -13,17 +13,17 @@ function M.highlight(palette, opts)
 		markdownH4 = { fg = palette.blue },
 		markdownH5 = { fg = palette.blue },
 		markdownH6 = { fg = palette.blue },
-		markdownHeadingDelimiter = { fg = palette.pink },
-		markdownHeadingRule = { fg = palette.accent },
+		markdownHeadingDelimiter = { fg = palette.red },
+		markdownHeadingRule = { fg = palette.bg_2 },
 		markdownId = { fg = palette.indigo },
 		markdownIdDeclaration = { fg = palette.blue },
-		markdownIdDelimiter = { fg = palette.light_gray },
-		markdownLinkDelimiter = { fg = palette.light_gray },
+		markdownIdDelimiter = { fg = palette.fg_1 },
+		markdownLinkDelimiter = { fg = palette.fg_1 },
 		markdownItalic = { italic = true },
 		markdownLinkText = { fg = palette.blue },
-		markdownListMarker = { fg = palette.pink },
-		markdownOrderedListMarker = { fg = palette.pink },
-		markdownRule = { fg = palette.accent },
+		markdownListMarker = { fg = palette.red },
+		markdownOrderedListMarker = { fg = palette.red },
+		markdownRule = { fg = palette.bg_2 },
 		markdownUrl = { fg = palette.lemongrass, underline = true },
 	}
 end

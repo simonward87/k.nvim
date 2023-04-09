@@ -1,33 +1,34 @@
 local colors = {
-	bg = "#ffffff",
-	accent = "#EBEAE5",
-	gray = "#757365",
-	medium_gray = "#545349",
-	light_gray = "#34332D",
-	fg = "#131311",
-	pink = "#C50E3A",       -- AA0930 | C50E3A | E01244
-	gold = "#8D5707",       -- 7A4900 | 8D5707 | 9F650D
-	lemongrass = "#3D7011", -- 305F06 | 3D7011 | 4A801B
-	turquoise = "#00742E",  -- 006327 | 00742E | 008535
-	blue = "#0E6C8E",       -- 005C7E | 0E6C8E | 1C7B9E
-	indigo = "#6D4EC3",     -- 4B3EC7 | 5C4FD2 | 6C5FDD
-	violet = "#A724AE",     -- 921699 | A724AE | BC31C3
+	bg_0 = "#FFFFFF",
+	bg_1 = "#F5F5F5",
+	bg_2 = "#EAEAEA",
+	fg_0 = "#181818",
+	fg_1 = "#474747",
+	fg_2 = "#767676",
+	red = "#C1002F",
+	gold = "#895200",
+	lemongrass = "#336C00",
+	turquoise = "#006E2C",
+	blue = "#00668C",
+	indigo = "#5F45D2",
+	violet = "#A512AC",
 	none = "NONE",
 }
 
--- alternative low contrast bg:
-if false then
-	colors["bg"] = "#f9f9f0"
-	colors["accent"] = "#E8E7D9"
-end
+-- A50028 | C1002F | DD0036 : red
+-- 744500 | 895200 | 9E5E00 : gold
+-- 2B5B00 | 336C00 | 3B7D00 : lemongrass
+-- 005D25 | 006E2C | 007F32 : turquoise
+-- 005676 | 00668C | 0076A2 : blue
+-- 572FC8 | 5F45D2 | 675ADC : indigo
+-- 8F0097 | A512AC | BA23C1 : violet
 
-colors["alt_bg"] = colors.bg
-colors["error"] = colors.pink
+colors["error"] = colors.red
 colors["hint"] = colors.medium_gray
 colors["info"] = colors.gold
 colors["sign_add"] = colors.turquoise
 colors["sign_change"] = colors.blue
-colors["sign_delete"] = colors.pink
+colors["sign_delete"] = colors.red
 colors["warning"] = colors.gold
 
 return colors

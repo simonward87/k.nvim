@@ -18,7 +18,7 @@ function M.highlight(palette, opts)
 		LspReferenceRead = { bg = "#36383F" },
 		LspReferenceText = { bg = "#36383F" },
 		LspReferenceWrite = { bg = "#36383f" },
-		LspSignatureActiveParameter = { bg = palette.alt_bg, bold = true },
+		LspSignatureActiveParameter = { bg = palette.bg_0, bold = true },
 	}
 end
 
