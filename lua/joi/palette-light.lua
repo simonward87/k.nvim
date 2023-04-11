@@ -1,28 +1,31 @@
 local colors = {
-	bg_0 = "#FFFFFF",
-	bg_1 = "#F5F5F5",
-	bg_2 = "#EAEAEA",
-	fg_0 = "#181818",
-	fg_1 = "#474747",
+	bg_0 = "#ffffff",
+	bg_1 = "#f5f5f5",
+	bg_2 = "#eaeaea",
+	fg_0 = "#000000",
+	fg_1 = "#3B3B3B",
 	fg_2 = "#767676",
-	red = "#C1002F",
+	red = "#c1002f",
 	gold = "#895200",
-	lemongrass = "#336C00",
-	turquoise = "#006E2C",
-	blue = "#00668C",
-	indigo = "#5F45D2",
-	violet = "#A512AC",
+	lemongrass = "#336c00",
+	lemongrass_1 = "#60734F",
+	turquoise = "#006e2c",
+	blue = "#00668c",
+	indigo = "#5f45d2",
+	indigo_1 = "#302369",
+	violet = "#a512ac",
 	none = "NONE",
 }
 
--- A50028 | C1002F | DD0036 : red
--- 744500 | 895200 | 9E5E00 : gold
--- 2B5B00 | 336C00 | 3B7D00 : lemongrass
--- 005D25 | 006E2C | 007F32 : turquoise
--- 005676 | 00668C | 0076A2 : blue
--- 572FC8 | 5F45D2 | 675ADC : indigo
--- 8F0097 | A512AC | BA23C1 : violet
+-- a50028 | c1002f | dd0036 : red
+-- 744500 | 895200 | 9e5e00 : gold
+-- 2b5b00 | 336c00 | 3b7d00 : lemongrass
+-- 005d25 | 006e2c | 007f32 : turquoise
+-- 005676 | 00668c | 0076a2 : blue
+-- 572fc8 | 5f45d2 | 675adc : indigo
+-- 8f0097 | a512ac | ba23c1 : violet
 
+colors["comment"] = colors.fg_2
 colors["error"] = colors.red
 colors["hint"] = colors.medium_gray
 colors["info"] = colors.gold

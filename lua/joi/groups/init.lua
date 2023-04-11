@@ -7,5 +7,5 @@ return {
 	require("joi.groups.nvim-cmp"),
 	require("joi.groups.nvim-tree"),
 	require("joi.groups.telescope"),
-	-- require("joi.groups.treesitter"),
+	require("joi.groups.treesitter"),
 }
