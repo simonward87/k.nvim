@@ -14,9 +14,9 @@
 - [ ] Add popular plugins
 
 ```lua
--- joi.nvim
+-- drift.nvim
 -- Some short description of the theme
--- URL: https://github.com/simonward87/joi.nvim
+-- URL: https://github.com/simonward87/drift.nvim
 -- Author: Simon Ward https://simonward.uk
 -- License: MIT
 ```

@@ -1,14 +1,14 @@
 local M = {}
 
 function M.setup(opts)
-	local settings = require("joi.settings")
+	local settings = require("drift.settings")
 	if opts then
 		settings.set(opts)
 	end
 end
 
 function M.load(theme_style)
-	local settings = require("joi.settings")
+	local settings = require("drift.settings")
 	local opts = settings.opts
 
 	vim.api.nvim_command("hi clear")
@@ -18,19 +18,19 @@ function M.load(theme_style)
 
 	vim.o.termguicolors = true
 
-	local palette_filename = "joi.palette-dark"
+	local palette_filename = "drift.palette-dark"
 
 	if theme_style then
 		vim.o.background = theme_style
-		vim.g.colors_name = "joi-" .. theme_style
-		palette_filename = "joi.palette-" .. theme_style
+		vim.g.colors_name = "drift-" .. theme_style
+		palette_filename = "drift.palette-" .. theme_style
 	else
 		vim.o.background = "dark"
-		vim.g.colors_name = "joi-dark"
+		vim.g.colors_name = "drift-dark"
 	end
 
-	local util = require("joi.util")
-	local groups = require("joi.groups")
+	local util = require("drift.util")
+	local groups = require("drift.groups")
 	local palette = require(palette_filename)
 
 	for _, group in ipairs(groups) do

@@ -1,4 +1,4 @@
-# Joi Theme
+# Drift Theme
 
 As a result of liking many themes, but having shameless commitment issues — I've
 decided to make my own. I'd like to learn the fundamentals of writing a plugin,
