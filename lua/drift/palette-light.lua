@@ -8,7 +8,7 @@ local colors = {
 	red = "#c1002f",
 	gold = "#895200",
 	lemongrass = "#336c00",
-	lemongrass_1 = "#60734f",
+	-- lemongrass_1 = "#60734f",
 	turquoise = "#006e2c",
 	blue = "#00668c",
 	indigo = "#5f45d2",
@@ -30,10 +30,10 @@ local colors = {
 
 -- alternative warm bg / fg palette:
 -- bg_0 = "#ffffff",
--- bg_1 = "#F8F7F0",
--- bg_2 = "#F0EEE1",
+-- bg_1 = "#f8f7f0",
+-- bg_2 = "#f0eee1",
 -- fg_0 = "#000000",
--- fg_1 = "#3C3B38",
+-- fg_1 = "#3c3b38",
 -- fg_2 = "#777670",
 
 colors["comment"] = colors.fg_2
