@@ -28,12 +28,14 @@ local colors = {
 -- 8f0097 | a512ac | ba23c1 : violet
 
 -- alternative warm bg / fg palette:
--- bg_0 = "#ffffff",
--- bg_1 = "#f8f7f0",
--- bg_2 = "#f0eee1",
--- fg_0 = "#000000",
--- fg_1 = "#3c3b38",
--- fg_2 = "#777670",
+if true then
+	colors["bg_0"] = "#ffffff"
+	colors["bg_1"] = "#F5F5F3"
+	colors["bg_2"] = "#EBEBE6"
+	colors["fg_0"] = "#000000"
+	colors["fg_1"] = "#363532"
+	colors["fg_2"] = "#6B6A64"
+end
 
 colors["comment"] = colors.fg_2
 colors["error"] = colors.red
