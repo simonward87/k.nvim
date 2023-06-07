@@ -20,8 +20,12 @@ function M.load(theme_style)
 
 	local palette_filename = "drift.palette-dark"
 
-	if theme_style then
-		vim.o.background = theme_style
+	if theme_style == "light" or theme_style == "lighter" then
+		vim.o.background = "light"
+		vim.g.colors_name = "drift-" .. theme_style
+		palette_filename = "drift.palette-" .. theme_style
+	elseif theme_style == "dark" or theme_style == "darker" then
+		vim.o.background = "dark"
 		vim.g.colors_name = "drift-" .. theme_style
 		palette_filename = "drift.palette-" .. theme_style
 	else
