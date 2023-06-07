@@ -13,7 +13,7 @@ function M.highlight(palette, opts)
 		["@const.builtin"] = { fg = palette.red },
 		["@const.macro"] = { fg = palette.lemongrass },
 		["@constant"] = { fg = palette.fg_0 },
-		["@constructor"] = { fg = palette.fg_1 },
+		["@constructor"] = { fg = palette.fg_0 },
 		["@emphasis"] = { italic = true },
 		["@error"] = { fg = palette.error },
 		["@exception"] = { fg = palette.red },
