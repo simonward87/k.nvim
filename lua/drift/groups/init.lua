@@ -1,4 +1,5 @@
 return {
+	require("drift.groups.fidget"),
 	require("drift.groups.git"),
 	require("drift.groups.highlights"),
 	require("drift.groups.lsp"),
