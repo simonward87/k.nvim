@@ -2,6 +2,9 @@ local M = {}
 
 function M.highlight(palette, opts)
 	return {
+		DiffAdd = { bg = palette.diff_added },
+		DiffChange = { bg = palette.diff_changed },
+		DiffDelete = { bg = palette.diff_removed },
 		SignAdd = { fg = palette.sign_add },
 		SignChange = { fg = palette.sign_change },
 		SignDelete = { fg = palette.sign_delete },

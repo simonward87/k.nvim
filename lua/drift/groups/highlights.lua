@@ -50,7 +50,7 @@ function M.highlight(palette, opts)
 		MoreMsg = { fg = palette.fg_0 },
 		MsgArea = { fg = palette.fg_0, bg = palette.bg_0 },
 		MsgSeparator = { fg = palette.fg_0, bg = palette.bg_0 },
-		NonText = { fg = palette.bg_0 },
+		NonText = { fg = palette.fg_2 },
 		Normal = { fg = palette.fg_0, bg = opts.transparent and palette.none or palette.bg_0 },
 		NormalFloat = { bg = palette.bg_1 },
 		NormalNC = { fg = palette.fg_0, bg = palette.bg_0 },
