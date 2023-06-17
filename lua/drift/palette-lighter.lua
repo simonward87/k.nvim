@@ -1,21 +1,21 @@
 local colors = {
 	bg_0 = "#ffffff",
-	bg_1 = "#F5F5F3",
-	bg_2 = "#EBEBE6",
+	bg_1 = "#f5f5f3",
+	bg_2 = "#ebebe6",
 	fg_0 = "#000000",
 	fg_1 = "#363532",
-	fg_2 = "#6B6A64",
+	fg_2 = "#6b6a64",
 	red = "#c1002f",
 	gold = "#895200",
 	lemongrass = "#336c00",
 	turquoise = "#006e2c",
 	blue = "#00668c",
 	indigo = "#5f45d2",
-	indigo_1 = "#302369",
+	indigo_hc = "#302369",
 	violet = "#a604ae",
-	diff_added = "#e3efe8",
-	diff_changed = "#e3eef2",
-	diff_removed = "#f8e3e8",
+	diff_added = "#cce2d5",
+	diff_removed = "#f3ccd5",
+	sign_change = "#cdcdc1",
 	none = "NONE",
 }
 
@@ -31,10 +31,10 @@ colors["comment"] = colors.fg_2
 colors["error"] = colors.red
 colors["hint"] = colors.medium_gray
 colors["info"] = colors.gold
+colors["diff_changed"] = colors.bg_1
 colors["sign_add"] = colors.turquoise
-colors["sign_change"] = colors.blue
 colors["sign_delete"] = colors.red
-colors["visual"] = colors.indigo_1
+colors["visual"] = colors.indigo_hc
 colors["warning"] = colors.gold
 
 return colors
