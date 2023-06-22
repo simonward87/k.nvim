@@ -41,6 +41,11 @@ function M.load(theme_style)
 		group = group.highlight(palette, opts)
 		util.initialize(group)
 	end
+
+	-- removes semantic highlighting until implemented properly
+	for _, group in ipairs(vim.fn.getcompletion("@lsp", "highlight")) do
+		vim.api.nvim_set_hl(0, group, {})
+	end
 end
 
 return M

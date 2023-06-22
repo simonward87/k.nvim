@@ -1,5 +1,7 @@
 # To-do
 
+- [ ] Implement
+      [semantic highlighting](https://gist.github.com/swarn/fb37d9eefe1bc616c2a7e476c0bc0316)
 - [ ] Update README to detail what it is and how to use it
   - [ ] Name, description and images of the theme
   - [ ] Features (Supported plugins, treesitter compatibility etc.)
