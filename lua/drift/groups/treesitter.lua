@@ -7,12 +7,13 @@ function M.highlight(palette, opts)
 		["@annotation"] = { fg = palette.fg_0 },
 		["@attribute"] = { fg = palette.fg_0 },
 		["@boolean"] = { fg = palette.turquoise },
-		["@character"] = { fg = palette.green },
+		["@character"] = { fg = palette.turquoise },
 		["@comment"] = vim.tbl_extend("force", { fg = palette.fg_2, italic = true }, opts.styles.comments),
 		["@conditional"] = { fg = palette.indigo },
 		["@const.builtin"] = { fg = palette.red },
 		["@const.macro"] = { fg = palette.lemongrass },
 		["@constant"] = { fg = palette.fg_0 },
+		["@constant.falsy"] = { fg = palette.turquoise },
 		["@constructor"] = { fg = palette.fg_0 },
 		["@emphasis"] = { italic = true },
 		["@error"] = { fg = palette.error },
@@ -58,13 +59,18 @@ function M.highlight(palette, opts)
 		["@tag.attribute"] = { fg = palette.indigo },
 		["@tag.delimiter"] = { fg = palette.indigo },
 		["@text"] = { fg = palette.fg_0 },
-		["@text.danger"] = { fg = palette.red },
-		["@text.reference"] = { fg = palette.indigo_hc, underline = true },
+		["@text.danger"] = { fg = palette.comment_danger },
+		-- ["@text.literal"] = { fg = palette.fg_2, italic = true },
 		["@text.note"] = { fg = palette.fg_1 },
+		["@text.reference"] = { fg = palette.indigo_hc, underline = true },
 		["@text.title"] = { fg = palette.indigo_hc },
-		["@text.todo"] = { fg = palette.fg_1, italic = true },
+		-- ["@text.title.1.marker"] = { fg = palette.indigo },
+		-- ["@text.title.2.marker"] = { fg = palette.indigo },
+		-- ["@text.title.3.marker"] = { fg = palette.indigo },
+		-- ["@text.title.4.marker"] = { fg = palette.indigo },
+		["@text.todo"] = { fg = palette.comment_todo, italic = true },
 		["@text.uri"] = { fg = palette.blue, underline = true },
-		["@text.warning"] = { fg = palette.gold },
+		["@text.warning"] = { fg = palette.comment_warning },
 		["@title"] = { fg = palette.blue },
 		["@type"] = vim.tbl_extend("force", { fg = palette.violet }, opts.styles.type),
 		["@type.builtin"] = { fg = palette.violet },
@@ -74,7 +80,8 @@ function M.highlight(palette, opts)
 		["@variable.builtin"] = { fg = palette.fg_0 },
 	}
 
-	-- TODO: implement semantic highlighting. More info:
+	-- TODO
+	-- implement semantic highlighting. More info:
 	-- https://gist.github.com/swarn/fb37d9eefe1bc616c2a7e476c0bc0316
 	groups["@lsp.type.namespace"] = groups["@namespace"]
 	groups["@lsp.type.type"] = groups["@type"]
