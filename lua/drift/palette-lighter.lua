@@ -3,10 +3,10 @@ local colors = {
 	bg_1 = "#f5f5f3",
 	bg_2 = "#ebebe6",
 	fg_0 = "#000000",
-	-- fg_1 = "#363532",
-	-- fg_2 = "#6b6a64",
-	fg_1 = "#3c3b38",
-	fg_2 = "#777670",
+	fg_1 = "#363532",
+	fg_2 = "#6b6a64",
+	-- fg_1 = "#3c3b38",
+	-- fg_2 = "#777670",
 	red = "#c1002f",
 	gold = "#895200",
 	lemongrass = "#336c00",
@@ -21,6 +21,8 @@ local colors = {
 	comment_todo = "#366878",
 	comment_warning = "#7a5e32",
 	comment_danger = "#96354a",
+	search = "#bbceaa",
+	-- search = "#aacfb9",
 	none = "NONE",
 }
 
