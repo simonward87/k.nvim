@@ -7,7 +7,7 @@ local default_opts = {
 		functions = {},
 		keywords = {},
 		lsp = { underline = true },
-		type = { bold = true },
+		type = { bold = false },
 		variables = {},
 	},
 }
