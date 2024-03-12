@@ -90,7 +90,7 @@ function M.highlight(palette, opts)
 		TermCursor = { fg = palette.fg_1, bg = palette.bg_0 },
 		TermCursorNC = { fg = palette.fg_1, bg = palette.bg_0 },
 		Title = { fg = palette.blue },
-		Todo = { fg = palette.fg_1, bg = palette.bg_0, italic = true },
+		Todo = { fg = palette.fg_1, italic = true },
 		Type = vim.tbl_extend("force", { fg = palette.violet }, opts.styles.type),
 		Typedef = { fg = palette.fg_0 },
 		Underlined = { underline = true },

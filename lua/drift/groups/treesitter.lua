@@ -1,7 +1,5 @@
 local M = {}
 
--- TODO
-
 function M.highlight(palette, opts)
 	local groups = {
 		-- ["@field"] = { fg = palette.fg_0 },
