@@ -5,8 +5,6 @@ local colors = {
 	fg_0 = "#ffffff",
 	fg_1 = "#c8d1d8",
 	fg_2 = "#91a2b0",
-	-- fg_1 = "#b8c3cc",
-	-- fg_2 = "#718799",
 	red = "#ff9aa0",
 	gold = "#fee48c",
 	lemongrass = "#d0ffbe",
@@ -22,21 +20,13 @@ local colors = {
 	comment_warning = "#c8c39e",
 	comment_danger = "#c89ea8",
 	search = "#51695b",
-	-- search = "#2a6958",
 	none = "NONE",
 }
-
--- previous colors
--- red = "#ff8c93",
--- lemongrass = "#dcffce",
--- blue = "#84ccff",
--- blue = "#b4e0ff",
--- violet = "#ffa9f7",
 
 colors["comment"] = colors.fg_2
 colors["error"] = colors.red
 colors["hint"] = colors.fg_1
-colors["info"] = colors.gold
+colors["info"] = colors.blue
 colors["sign_add"] = colors.turquoise
 colors["sign_change"] = colors.indigo
 colors["sign_delete"] = colors.red

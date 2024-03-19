@@ -5,8 +5,6 @@ local colors = {
 	fg_0 = "#000000",
 	fg_1 = "#33322f",
 	fg_2 = "#65645e",
-	-- fg_1 = "#393935",
-	-- fg_2 = "#72716a",
 	red = "#c1002f",
 	gold = "#895200",
 	lemongrass = "#336c00",
@@ -22,27 +20,13 @@ local colors = {
 	comment_warning = "#775b2f",
 	comment_danger = "#933247",
 	search = "#b5c8a0",
-	-- search = "#a4c9af",
 	none = "NONE",
 }
-
--- alternative palette
--- red = "#be004f",
--- gold = "#9d4400",
--- lemongrass = "#446a00",
--- turquoise = "#006e1a",
--- blue = "#006a76",
--- indigo = "#4e4bd4",
--- indigo_hc = "#27266a",
--- violet = "#9e05c7",
--- diff_added = "#cddfcc",
--- diff_changed = "#dadaeb",
--- diff_removed = "#edcdd5",
 
 colors["comment"] = colors.fg_2
 colors["error"] = colors.red
 colors["hint"] = colors.medium_gray
-colors["info"] = colors.gold
+colors["info"] = colors.blue
 colors["sign_add"] = colors.turquoise
 colors["sign_change"] = colors.indigo
 colors["sign_delete"] = colors.red
