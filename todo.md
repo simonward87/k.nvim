@@ -16,9 +16,9 @@
 - [ ] Add popular plugins
 
 ```lua
--- drift.nvim
+-- k.nvim
 -- Some short description of the theme
--- URL: https://github.com/simonward87/drift.nvim
+-- URL: https://github.com/simonward87/k.nvim
 -- Author: Simon Ward https://simonward.uk
 -- License: MIT
 ```
