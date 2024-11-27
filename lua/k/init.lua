@@ -1,16 +1,15 @@
 local M = {}
 
 function M.setup(opts)
-	local settings = require("drift.settings")
+	local settings = require("k.settings")
 	if opts then
 		settings.set(opts)
 	end
 end
 
--- style: "light" or "lighter" or "dark" or "darker"
 function M.load(style)
 	if style == nil or style == "" then
-		style = "dark"
+		style = "dusk"
 	end
 
 	vim.api.nvim_command("hi clear")
@@ -18,20 +17,21 @@ function M.load(style)
 		vim.api.nvim_command("syntax reset")
 	end
 
-	local background = style
+	local variations = {
+		dark = "dark",
+		dawn = "light",
+		day = "light",
+		dusk = "dark",
+	}
 
-	if string.len(background) > 5 then
-		background = string.sub(background, 1, -3)
-	end
-
-	vim.o.background = background
+	vim.o.background = variations[style]
 	vim.o.termguicolors = true
-	vim.g.colors_name = "drift-" .. style
+	vim.g.colors_name = "k-" .. style
 
-	local groups = require("drift.groups")
-	local palette = require("drift.palette-" .. style)
-	local settings = require("drift.settings")
-	local util = require("drift.util")
+	local groups = require("k.groups")
+	local palette = require("k.palette-" .. style)
+	local settings = require("k.settings")
+	local util = require("k.util")
 
 	for _, group in ipairs(groups) do
 		group = group.highlight(palette, settings.opts)
