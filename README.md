@@ -1,10 +1,11 @@
 # K Neovim Theme
 
-I made a theme. I hope you enjoy it 😊
+I made a theme for [Neovim](https://github.com/neovim/neovim). I hope you enjoy it 😊
 
 ## Features
 
-- Strong contrast across all variations
+- Strong contrast
+- Four variations, two light & two dark
 - Alacritty & Tmux friends
 
 ## About building a theme
