@@ -6,7 +6,7 @@ I made a theme for [Neovim](https://github.com/neovim/neovim). I hope you enjoy 
 
 - Strong contrast
 - Four variations, two light & two dark
-- Alacritty & Tmux friends
+- [Alacritty](https://github.com/simonward87/k.alacritty) & [Tmux](https://github.com/simonward87/k.tmux) friends
 
 ## Variations
 
