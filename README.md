@@ -10,25 +10,38 @@ I made a theme for [Neovim](https://github.com/neovim/neovim). I hope you enjoy 
 
 ## Variations
 
-### Dusk
+<details>
+<summary>🌆 Dusk</summary>
 
 ![Dusk CSS](https://github.com/simonward87/k.nvim/blob/assets/dusk-css.jpg)
 ![Dusk HTML](https://github.com/simonward87/k.nvim/blob/assets/dusk-html.jpg)
 
-### Dark
+</details>
+
+
+<details>
+<summary>🌃 Dark</summary>
 
 ![Dark CSS](https://github.com/simonward87/k.nvim/blob/assets/dark-css.jpg)
 ![Dark HTML](https://github.com/simonward87/k.nvim/blob/assets/dark-html.jpg)
 
-### Dawn
+</details>
+
+<details>
+<summary>🌄 Dawn</summary>
 
 ![Dawn CSS](https://github.com/simonward87/k.nvim/blob/assets/dawn-css.jpg)
 ![Dawn HTML](https://github.com/simonward87/k.nvim/blob/assets/dawn-html.jpg)
 
-### Day
+</details>
+
+<details>
+<summary>🏙️ Day</summary>
 
 ![Day CSS](https://github.com/simonward87/k.nvim/blob/assets/day-css.jpg)
 ![Day HTML](https://github.com/simonward87/k.nvim/blob/assets/day-html.jpg)
+
+</details>
 
 ## About building a theme
 
