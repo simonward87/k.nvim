@@ -62,6 +62,7 @@ function M.highlight(palette, opts)
 		["@query.linter.error"] = { fg = palette.warning },
 		["@repeat"] = { fg = palette.indigo },
 		["@string"] = { fg = palette.lemongrass },
+		["@string.documentation"] = { fg = palette.fg_2 },
 		["@string.escape"] = { fg = palette.blue },
 		["@string.special.url"] = { fg = palette.blue, underline = true },
 		["@string.regex"] = { fg = palette.lemongrass },
