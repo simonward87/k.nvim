@@ -17,19 +17,12 @@ function M.load(style)
 		vim.api.nvim_command("syntax reset")
 	end
 
-	local variations = {
-		dark = "dark",
-		dawn = "light",
-		day = "light",
-		dusk = "dark",
-	}
-
-	vim.o.background = variations[style]
+	vim.o.background = (style == "dawn" or style == "day") and "light" or "dark"
 	vim.o.termguicolors = true
 	vim.g.colors_name = "k-" .. style
 
 	local groups = require("k.groups")
-	local palette = require("k.palette-" .. style)
+	local palette = require("k.palettes." .. style)
 	local settings = require("k.settings")
 	local util = require("k.util")
 
@@ -38,9 +31,10 @@ function M.load(style)
 		util.initialize(group)
 	end
 
-	-- Remove semantic highlighting until implemented
-	for _, group in ipairs(vim.fn.getcompletion("@lsp", "highlight")) do
-		vim.api.nvim_set_hl(0, group, {})
+	-- Removes semantic highlight groups while not implemented. More info:
+	-- https://gist.github.com/swarn/fb37d9eefe1bc616c2a7e476c0bc0316
+	for _, name in ipairs(vim.fn.getcompletion("@lsp", "highlight")) do
+		vim.api.nvim_set_hl(0, name, {})
 	end
 end
 
