@@ -23,11 +23,11 @@ function M.highlight(palette, _opts)
 		NvimTreeSymlinkFolderName = { fg = palette.blue },
 
 		NvimTreeGitDeletedIcon = { fg = palette.sign_delete },
-		NvimTreeGitDirtyIcon = { fg = palette.lemongrass },
-		NvimTreeGitIgnoredIcon = { fg = palette.fg_1 },
+		NvimTreeGitDirtyIcon = { fg = palette.gold },
+		NvimTreeGitIgnoredIcon = { fg = palette.fg_2 },
 		NvimTreeGitMergeIcon = { fg = palette.indigo_hc },
-		NvimTreeGitNewIcon = { fg = palette.lemongrass },
-		NvimTreeGitRenamedIcon = { fg = palette.lemongrass },
+		NvimTreeGitNewIcon = { fg = palette.blue },
+		NvimTreeGitRenamedIcon = { fg = palette.fg_1 },
 		NvimTreeGitStagedIcon = { fg = palette.turquoise },
 
 		NvimTreeLspDiagnosticsError = { fg = palette.error },
