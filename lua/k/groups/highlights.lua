@@ -20,6 +20,7 @@ function M.highlight(palette, opts)
 		CursorLineNr = { fg = palette.fg_0, bg = palette.bg_2, bold = true },
 		CursorLineFold = { fg = palette.fg_0, bg = palette.bg_2 },
 		CursorLineSign = { fg = palette.fg_0, bg = palette.bg_2 },
+		CurSearch = { fg = palette.bg_0, bg = palette.lemongrass },
 		Debug = { fg = palette.blue },
 		Define = { fg = palette.blue },
 		Delimiter = { fg = palette.indigo },

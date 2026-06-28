@@ -19,7 +19,7 @@ local colors = {
 	comment_todo = "#366878",
 	comment_warning = "#7a5e32",
 	comment_danger = "#96354a",
-	search = "#bbceaa",
+	search = "#CCDABF",
 	none = "NONE",
 }
 
